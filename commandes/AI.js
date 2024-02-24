@@ -1,5 +1,6 @@
 const { zokou } = require('../framework/zokou');
 const traduire = require("../framework/traduction") ;
+const { default: axios } = require('axios');
 //const conf = require('../set');
 
 

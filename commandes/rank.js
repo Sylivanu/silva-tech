@@ -1,5 +1,4 @@
 const {zokou} = require("../framework/zokou");
-const conf = require("../set");
 const {getMessagesAndXPByJID,getBottom10Users} = require("../bdd/level");
 
 
@@ -88,7 +87,7 @@ zokou( {
    }, 
    async(dest,zk, commandeOptions)=> {
   
-    const {ms , arg, repondre,auteurMessage,nomAuteurMessage, msgRepondu , auteurMsgRepondu , mybotpic} = commandeOptions ;
+    const {ms , repondre,auteurMessage,nomAuteurMessage, msgRepondu , auteurMsgRepondu , mybotpic} = commandeOptions ;
 
   if (msgRepondu) {
       
@@ -111,23 +110,23 @@ zokou( {
     
          if (data.level < 5) {
             role = 'baby'
-         } else if (data.level >= 5 || data.level < 10) {
+         } else if (data.level >= 5 && data.level < 10) {
             role = 'kid-Ninja'
-         } else if ( data.level >= 10 || data.level < 15 ) {
+         } else if ( data.level >= 10 && data.level < 15 ) {
             role = 'Ninja-genin'
-         } else if ( data.level >= 15 || data.level < 20 ) {
+         } else if ( data.level >= 15 && data.level < 20 ) {
             role = 'Ninja-chunin'
-         } else if ( data.level >= 20 || data.level < 25 ) {
+         } else if ( data.level >= 20 && data.level < 25 ) {
             role = 'Ninja-jonin'
-         } else if ( data.level >= 25 || data.level < 30 ) {
+         } else if ( data.level >= 25 && data.level < 30 ) {
             role = 'ANBU'
-         } else if ( data.level >= 30 || data.level < 35 ) {
+         } else if ( data.level >= 30 && data.level < 35 ) {
             role = 'strong ninja'
-         } else if ( data.level >= 35 || data.level < 40 ) {
+         } else if ( data.level >= 35 && data.level < 40 ) {
             role = 'kage'
-         } else if ( data.level >= 40 || data.level < 45 ) {
+         } else if ( data.level >= 40 && data.level < 45 ) {
             role = 'Hermit seinin'
-         } else if ( data.level >= 45 || data.level < 50 ) {
+         } else if ( data.level >= 45 && data.level < 50 ) {
             role = 'Otsusuki'
          } else {
             role = 'GOD'
@@ -187,23 +186,23 @@ zokou( {
     
          if (data.level < 5) {
             role = 'Nouveau né(e)'
-         } else if (data.level >= 5 || data.level < 10) {
+         } else if (data.level >= 5 && data.level < 10) {
             role = 'kid-Ninja'
-         } else if ( data.level >= 10 || data.level < 15 ) {
+         } else if ( data.level >= 10 && data.level < 15 ) {
             role = 'Ninja-genin'
-         } else if ( data.level >= 15 || data.level < 20 ) {
+         } else if ( data.level >= 15 && data.level < 20 ) {
             role = 'Ninja-chunin'
-         } else if ( data.level >= 20 || data.level < 25 ) {
+         } else if ( data.level >= 20 && data.level < 25 ) {
             role = 'Ninja-jonin'
-         } else if ( data.level >= 25 || data.level < 30 ) {
+         } else if ( data.level >= 25 && data.level < 30 ) {
             role = 'ANBU'
-         } else if ( data.level >= 30 || data.level < 35 ) {
+         } else if ( data.level >= 30 && data.level < 35 ) {
             role = 'strong ninja'
-         } else if ( data.level >= 35 || data.level < 40 ) {
+         } else if ( data.level >= 35 && data.level < 40 ) {
             role = 'kage'
-         } else if ( data.level >= 40 || data.level < 45 ) {
+         } else if ( data.level >= 40 && data.level < 45 ) {
             role = 'Hermit seinin'
-         } else if ( data.level >= 45 || data.level < 50 ) {
+         } else if ( data.level >= 45 && data.level < 50 ) {
             role = 'Otsusuki'
          } else {
             role = 'level-GOD'
@@ -249,7 +248,7 @@ zokou( {
    }, 
    async(dest,zk, commandeOptions)=> {
   
-    const {ms , arg, repondre,auteurMessage,nomAuteurMessage, msgRepondu , auteurMsgRepondu , mybotpic} = commandeOptions ;
+    const {ms , mybotpic} = commandeOptions ;
 
 
        let msg = `┏━━┛ ZK-top-rang ┗━━┓\n\n`
@@ -264,23 +263,23 @@ zokou( {
     
          if (data.level < 5) {
             role = 'Nouveau né(e)'
-         } else if (data.level >= 5 || data.level < 10) {
+         } else if (data.level >= 5 && data.level < 10) {
             role = 'kid ninja'
-         } else if ( data.level >= 10 || data.level < 15 ) {
+         } else if ( data.level >= 10 && data.level < 15 ) {
             role = 'Ninja-genin'
-         } else if ( data.level >= 15 || data.level < 20 ) {
+         } else if ( data.level >= 15 && data.level < 20 ) {
             role = 'Ninja-chunin'
-         } else if ( data.level >= 20 || data.level < 25 ) {
+         } else if ( data.level >= 20 && data.level < 25 ) {
             role = 'Ninja-jonin'
-         } else if ( data.level >= 25 || data.level < 30 ) {
+         } else if ( data.level >= 25 && data.level < 30 ) {
             role = 'ANBU'
-         } else if ( data.level >= 30 || data.level < 35 ) {
+         } else if ( data.level >= 30 && data.level < 35 ) {
             role = 'strong ninja'
-         } else if ( data.level >= 35 || data.level < 40 ) {
+         } else if ( data.level >= 35 && data.level < 40 ) {
             role = 'kage'
-         } else if ( data.level >= 40 || data.level < 45 ) {
+         } else if ( data.level >= 40 && data.level < 45 ) {
             role = 'Hermit seinin'
-         } else if ( data.level >= 45 || data.level < 50 ) {
+         } else if ( data.level >= 45 && data.level < 50 ) {
             role = 'Otsusuki'
          } else {
             role = 'level-GOD'

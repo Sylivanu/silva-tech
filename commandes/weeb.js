@@ -23,7 +23,7 @@ async (origineMessage, zk, commandeOptions) => {
       zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms });
     }
   } catch (error) {
-    repondre('Erreur lors de la récupération des données :', error);
+    repondre('Error occurred while retrieving the data. :', error);
   }
 });
 
@@ -46,7 +46,7 @@ async (origineMessage, zk, commandeOptions) => {
       zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms });
     }
   } catch (error) {
-    repondre('Erreur lors de la récupération des données :', error);
+    repondre('Error occurred while retrieving the data. :', error);
   }
 });
 
@@ -69,7 +69,7 @@ async (origineMessage, zk, commandeOptions) => {
       zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms });
     }
   } catch (error) {
-    repondre('Erreur lors de la récupération des données :', error);
+    repondre('Error occurred while retrieving the data. :', error);
   }
 });
 
@@ -92,7 +92,7 @@ async (origineMessage, zk, commandeOptions) => {
       zk.sendMessage(origineMessage,{ image: { url: imageUrl } }, { quoted: ms });
     }
   } catch (error) {
-    repondre('Erreur lors de la récupération des données :', error);
+    repondre('Error occurred while retrieving the data. :', error);
   }
 });
 
