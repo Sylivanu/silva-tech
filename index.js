@@ -603,7 +603,7 @@ function mybotpic() {
                 if (cd) {
                     try {
 
-            if ((conf.MODE).toLocaleLowerCase() != 'no' && !superUser) {
+            if ((conf.MODE).toLocaleLowerCase() != 'yes' && !superUser) {
                 return;
             }
 
