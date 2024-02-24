@@ -47,7 +47,7 @@ const date = moment().format('DD/MM/YYYY');
     
 let menuMsg = `
 👋 Hello ${nomAuteurMessage} 👋
-I'm *${s.NOM}*, a bot developped by team zokou.
+I'm *${s.BOT}*, a bot developped by team zokou.
 
 *List of commands :*
 ◇                             ◇
