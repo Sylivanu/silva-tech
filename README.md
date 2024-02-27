@@ -1,50 +1,56 @@
-# Zokou-2.0
+# `SILVA BOT `
+<br>
+<br>
+
+<p align="center">
+ # Silva-Md
+<div align="center" class= "main"> 
+<a href="https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v" target="_blank">
+  <img src="https://telegra.ph/file/cb3056720c785550da41d.jpg" width="400" height="300"/>
+   </a>
+   <h1>Silva-Md</h1>
+
+<p align="center">
+   <a href="https://github.com/Sylivanu"><img src="http://readme-typing-svg.herokuapp.com?color=FF0000&center=true&vCenter=true&multiline=false&lines=SILVA+Multi+Device;Base+Secktor;Give+ a+star+and+fork+this+Repo+:D;Follow+My+Github" alt="UwU">
+</p>
+
+<p align="center">
+  <a aria-label="Follow our channel" href="https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Follow Our Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a aria-label="Support Group" href="https://chat.whatsapp.com/Kl4KPuf0s1l9AJji1JqIhR" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+<a stencil-label="Bot Whatsapp" href="[https://chat.whatsapp.com/IPxMJSRU2eo0UWIwNvTTLD](https://wa.me/254700143167?text=.menu)" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  
+</p>
+
+<a href="https://github.com/Sylivanu"><img title="Creator" src="https://img.shields.io/badge/Creator-SILVA-red.svg?style=for-the-badge&logo=github"></a>
 
 
+<br>
+WELCOME 😊 TO SILVA MD THE FASTEST BOT MADE BY SILVA +254700143167 AND DURABLE +233248716476.
+WhatsApp MD User Bot.
+A simple WhatsApp User bot.
 
-Zokou is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Zokou is here to assist you.
+## Setup
 
-## Key Features
+1. Deploy on Heroku
+   - Click [PAIR SILVA MD](https://replit.com/@brokay363/Silva-Md-Pairing-Code?v=1) and PAIR the code through the _``"WhatsApp Linked Devices"``_ option in your WhatsApp app.
+   - You will get a session ID in WhatsApp, copy the ID only.
+   - If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).
+   - If you don't have a GitHub account, [sign up](https://github.com/join) now.
+   - [FORK](https://github.com/Sylivanu/silva-tech/fork) this repository.
+   
+## 🚀 `Deployments`
+#### DEPLOY TO HEROKU 
 
-- **File Download:** Zokou can download audio and video files from links you send, making it easy to share them with your contacts.
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou. You need the api key from api.lolhuman.xyz; an API key is provided in case you don't have one: `9d05ccc5f58e1cf30937`
-
-- **Group Management:** Zokou offers group management features, such as adding or removing members, configuring rules, and other settings.
-
-- **Text to Img:** The best logos have been selected for your convenience.
-
-## Fun Features
-
-- **Jokes and Riddles:** Zokou comes with a collection of jokes and riddles to liven up your conversations.
-
-- **Inspiring Quotes:** Receive inspiring quotes to motivate you daily.
-
-## Get Zokou
-
-1. Click on **[Fork](https://github.com/Faouz995/Zokou-2.0-englishV/fork)** to copy the repo to your GitHub account. Make sure to add a star 🌟 to encourage the developers.
-
-2. Obtain a bot session: 
-
-   [Session](https://zokouscan.onrender.com)
-
-3. Deploy
-   - **Heroku Deployment:**
-     1. If you don't have a **Heroku** account, click [**here**](https://id.heroku.com/login) to create one.
-     2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/Faouz995/Zokou-2.0-englishV) to deploy the bot on **Heroku**.
-
-## Contributions
-
-Contributions to Zokou are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-The WhatsApp Bot Zokou is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-Enjoy the diverse features of the WhatsApp Bot Zokou to enhance your conversations and make your WhatsApp experience more interesting!
-
-## Developers:
-
-- [**Djalega++**](https://github.com/djalega8000/Zokou-MD/)
-- [**᚛M๏𝓷keℽ D Lบffy᚜**](https://github.com/Faouz995)
-
+2. Now Deploy
+    <br>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Sylivanu/silva-tech' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
