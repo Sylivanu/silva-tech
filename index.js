@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Zokou-Md', "safari", "1.0.0"],
+            browser: ['Silva-tech', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -132,9 +132,9 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='2250143343357';
-             const luffy='22891733300'*/
+            /* const dj='254700143167';
+             const dj2='254748735699';
+             const luffy='254700143167'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '22559763447';
-            const dj2 = '22543343357';
-            const dj3 = "22564297888";
-            const luffy = '22891733300';
+            const dj = '254700143167';
+            const dj2 = '254748735699';
+            const dj3 = "254700143167";
+            const luffy = '254700143167';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Zokou-Md}...[][]");
+            console.log("\t [][]...{SILVA-TECH}...[][]");
             console.log("=========== Nouveau message ===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -671,7 +671,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
             let msg = `╔════◇◇◇═════╗
-║ welcome to new(s) member(s)
+║ WELCOME SILVA BOT ACTIVE 
 ║ *New(s) Member(s) :*
 `;
 
@@ -682,7 +682,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
             msg += `║
 ╚════◇◇◇═════╝
-◇ *Descriptioon*   ◇
+◇ *GROUP INFORMATION*   ◇
 
 ${metadata.desc}`;
 
@@ -779,7 +779,7 @@ ${metadata.desc}`;
 
                  
                 },{
-                    timezone: "Africa/Abidjan"
+                    timezone: "Africa/Nairobi"
                   });
               }
         
@@ -854,7 +854,7 @@ ${metadata.desc}`;
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╔════◇
-║ 『𝐙𝐨𝐤𝐨𝐮-𝐌𝐃』
+║ 『SILVA😜-𝐌𝐃』
 ║    Prefix : [ ${prefixe} ]
 ║    Mode :${md}
 ║    Total Commandes : ${evt.cm.length}︎
@@ -862,9 +862,9 @@ ${metadata.desc}`;
 
 ╔═════◇
 
-
- if there are somes error you can tell us :) 
- thanks you for choosing zokou MD
+Be part of us
+ THANK YOU FOR CHOOSING SILVA TECH
+ https://chat.whatsapp.com/BFLnaC9ULR02UJI2TbnciD
 
 ╚══════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
