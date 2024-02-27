@@ -1,5 +1,5 @@
 {
-  "name": "zokou-2.0",
+  "name": "SILVA Vr 2",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Zokou",
+    "silva-tech",
     "whatsapp",
     "whatsapp-bot",
-    "Faouz995"
+    "Sylivanu"
   ],
-  "author": "Faouz995",
+  "author": "Sylivanu",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
