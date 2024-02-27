@@ -37,8 +37,8 @@ A simple WhatsApp User bot.
 
 ## Setup
 
-1. Deploy on Heroku
-   - Click [PAIR SILVA MD](https://replit.com/@brokay363/Silva-Md-Pairing-Code?v=1) and PAIR the code through the _``"WhatsApp Linked Devices"``_ option in your WhatsApp app.
+1. GET SESSION CODE BY SCANNING OR PAIRING
+   - Click [PAIR SILVA MD](https://zokouscan.onrender.com/getsession) andscan it on Whatsapp by _``"WhatsApp Linked Devices"``_ option in your WhatsApp app.
    - You will get a session ID in WhatsApp, copy the ID only.
    - If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).
    - If you don't have a GitHub account, [sign up](https://github.com/join) now.
