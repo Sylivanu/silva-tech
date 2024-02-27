@@ -10,3 +10,4 @@ async function traduire(text, options) {
 }
 
 module.exports = traduire;
+
