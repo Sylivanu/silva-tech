@@ -875,3 +875,4 @@ function StyleText() {
     return html;
   };
 }
+
