@@ -273,3 +273,4 @@ function police(text, index) {
     return listall(text)[index];
 }
 exports.police = police;
+
