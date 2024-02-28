@@ -38,7 +38,7 @@ A simple WhatsApp User bot.
 ## Setup
 
 1. GET SESSION CODE BY SCANNING OR PAIRING
-   - Click [PAIR SILVA MD](https://zokouscan.onrender.com/getsession) andscan it on Whatsapp by _``"WhatsApp Linked Devices"``_ option in your WhatsApp app.
+   - Click [SCAN QR SILVA MD](https://silvaqr-bacd956222c6.herokuapp.com/) andscan it on Whatsapp by _``"WhatsApp Linked Devices"``_ option in your WhatsApp app.
    - You will get a session ID in WhatsApp, copy the ID only.
    - If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).
    - If you don't have a GitHub account, [sign up](https://github.com/join) now.
