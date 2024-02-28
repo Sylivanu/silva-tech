@@ -32,23 +32,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧${s.BOT}✧────◆
+╭────✧{𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋}✧────◆
 │   *Préfix* : ${s.PREFIXE}
 │   *Owner* : ${s.OWNER_NAME}
 │   *Mode* : ${mode}
 │   *Commands* : ${cm.length}
 │   *Date* : ${date}
 │   *Hour* : ${temps}
-│   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│   *Plateforme* : ${os.platform()}
-│   *Développer* : Djalega++ 
-│  & M๏𝓷keℽ D Lบffy
+│   *Memory* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│   *Platform* : ${os.platform()}
+│   *Développer* : 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋
+|   *CALL*:254700143167
 ╰─────✧WA-BOT✧─────◆ \n\n`;
     
 let menuMsg = `
 👋 Hello ${nomAuteurMessage} 👋
 
-*List of commands :*
+*List of commands OF 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋 :*
 ◇                             ◇
 `;
 
@@ -67,7 +67,7 @@ let menuMsg = `
 *»»————— ★ —————««*
 "To use a command, insert ${prefixe} followed by the command_name."
  
-    Powered by Zokou-MD
+    Powered by 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋
                                                 
 *»»————— ★ —————««*
 `;
@@ -76,7 +76,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋*, développé par 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -86,7 +86,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋*, développé par 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
