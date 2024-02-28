@@ -286,7 +286,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈Anti-delete-message😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈Anti-delete-message detected by 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Zoou-Md',
+                                        pack: '𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -480,7 +480,7 @@ function mybotpic() {
 
                             } else {
                                 var rest = warnlimit - warn ;
-                              var  msg = `Link detected , your warn_count was upgrade ;\n rest : ${rest} `;
+                              var  msg = `𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋:Link detected , your warn_count was upgrade ;\n rest : ${rest} `;
 
                               await ajouterUtilisateurAvecWarnCount(auteurMessage)
 
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Zoou-Md',
+                pack: 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -663,7 +663,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg';
+        ppgroup = 'https://telegra.ph/file/3647aeca79bcc25555c99.jpg';
     }
 
     try {
@@ -762,7 +762,7 @@ ${metadata.desc}`;
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Hello, it's time to close the group; sayonara." });
 
                 }, {
-                    timezone: "Africa/Abidjan"
+                    timezone: "Africa/Nairobi"
                   });
               }
         
