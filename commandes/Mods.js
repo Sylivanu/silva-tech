@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "Zokou-md",
+            author: "𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -206,7 +206,7 @@ zokou({ nomCom: "unblock", categorie: "Mods" }, async (dest, zk, commandeOptions
   
     });
 
-zokou({ nomCom: "kickall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋({ nomCom: "kickall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
 
   const { auteurMessage ,ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser,prefixe } = commandeOptions
 
