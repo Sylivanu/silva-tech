@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Faouz995/Zokou-2.0-englishV  /root/Zokou_BOt
-WORKDIR /root/Zokou_Bot/
+RUN git clone https://github.com/Sylivanu/silva-tech  /root/silva
+WORKDIR /root/silva/
 
 
 COPY package.json .
