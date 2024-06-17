@@ -32,16 +32,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧{𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋}✧────◆
-│   *Préfix* : ${s.PREFIXE}
-│   *Owner* : ${s.OWNER_NAME}
-│   *Mode* : ${mode}
-│   *Commands* : ${cm.length}
-│   *Date* : ${date}
-│   *Hour* : ${temps}
-│   *Memory* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│   *Platform* : ${os.platform()}
-│   *Développer* : 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋
+╭────✧{𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮}✧────◆
+│🚂  *Préfix* : ${s.PREFIXE}
+│🚂  *Owner* : ${s.OWNER_NAME}
+│🚂  *Mode* : ${mode}
+│🚂  *Commands* : ${cm.length}
+│🚂  *Date* : ${date}
+│🚂  *Hour* : ${temps}
+│🚂  *Memory* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│🚂  *Platform* : ${os.platform()}
+│🚂  *Développer* : 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮�
 |   *CALL*:254700143167
 ╰─────✧WA-BOT✧─────◆ \n\n`;
     
